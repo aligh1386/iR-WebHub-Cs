@@ -83,7 +83,7 @@ Music & Podcast | Movies & Series | Download Manager | Search Engine | Gaming | 
 |------|-------------|
 | Language | C# |
 | Framework | .NET 4.7.2 |
-| Windows Forms |
+| UI | Windows Forms |
 | Installer | Visual Studio Installer (`.exe` output) |
 
 ---
