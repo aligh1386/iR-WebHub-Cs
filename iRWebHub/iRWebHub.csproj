@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{872D338E-675C-422A-B5D3-975246AD94A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>iRWebHub</RootNamespace>
+    <AssemblyName>iRWebHub</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\aligh1386\Documents\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>52891B8253F4925CE7BFAEF38A474C8D53CC10BF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>iRWebHub_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>269117_bear-holding-heart-icon %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agahiVasile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="agahiVasile.Designer.cs">
+      <DependentUpon>agahiVasile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aiiran.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Aiiran.Designer.cs">
+      <DependentUpon>Aiiran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="amozeshi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="amozeshi.Designer.cs">
+      <DependentUpon>amozeshi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppDL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppDL.Designer.cs">
+      <DependentUpon>AppDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banki.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Banki.Designer.cs">
+      <DependentUpon>Banki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bime.Designer.cs">
+      <DependentUpon>bime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BitGold.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BitGold.Designer.cs">
+      <DependentUpon>BitGold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyFood.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BuyFood.Designer.cs">
+      <DependentUpon>BuyFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmVserial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FilmVserial.Designer.cs">
+      <DependentUpon>FilmVserial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gamingTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gamingTab.Designer.cs">
+      <DependentUpon>gamingTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargozari.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kargozari.Designer.cs">
+      <DependentUpon>kargozari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Karyabi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Karyabi.Designer.cs">
+      <DependentUpon>Karyabi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="khabarGozari.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="khabarGozari.Designer.cs">
+      <DependentUpon>khabarGozari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhadamatDolati.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KhadamatDolati.Designer.cs">
+      <DependentUpon>KhadamatDolati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musicVpodCast.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="musicVpodCast.Designer.cs">
+      <DependentUpon>musicVpodCast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Onlineshop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Onlineshop.Designer.cs">
+      <DependentUpon>Onlineshop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayamResan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PayamResan.Designer.cs">
+      <DependentUpon>PayamResan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pezashki.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pezashki.Designer.cs">
+      <DependentUpon>Pezashki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchEngine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchEngine.Designer.cs">
+      <DependentUpon>SearchEngine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UploadFile.Designer.cs">
+      <DependentUpon>UploadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Varzeshi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Varzeshi.Designer.cs">
+      <DependentUpon>Varzeshi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="agahiVasile.resx">
+      <DependentUpon>agahiVasile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aiiran.resx">
+      <DependentUpon>Aiiran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="amozeshi.resx">
+      <DependentUpon>amozeshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppDL.resx">
+      <DependentUpon>AppDL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banki.resx">
+      <DependentUpon>Banki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bime.resx">
+      <DependentUpon>bime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitGold.resx">
+      <DependentUpon>BitGold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyFood.resx">
+      <DependentUpon>BuyFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmVserial.resx">
+      <DependentUpon>FilmVserial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gamingTab.resx">
+      <DependentUpon>gamingTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargozari.resx">
+      <DependentUpon>kargozari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Karyabi.resx">
+      <DependentUpon>Karyabi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="khabarGozari.resx">
+      <DependentUpon>khabarGozari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhadamatDolati.resx">
+      <DependentUpon>KhadamatDolati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musicVpodCast.resx">
+      <DependentUpon>musicVpodCast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Onlineshop.resx">
+      <DependentUpon>Onlineshop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayamResan.resx">
+      <DependentUpon>PayamResan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pezashki.resx">
+      <DependentUpon>Pezashki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchEngine.resx">
+      <DependentUpon>SearchEngine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadFile.resx">
+      <DependentUpon>UploadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varzeshi.resx">
+      <DependentUpon>Varzeshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="iRWebHub_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="269117_bear-holding-heart-icon %281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
